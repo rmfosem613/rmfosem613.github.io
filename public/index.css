@@ -32,21 +32,6 @@ body {
     align-items: center;
 }
 
-.iframe_span {
-    /* margin-right: 10px; */
-    background-color: var(--color1); 
-    padding: 15px;
-    align-items: center;
-}
-
-.iframe_span:hover {
-    background-color: var(--color2);
-}
-
-.iframe_span:visited {
-    background-color: var(--color2);
-}
-
 /* font */
 @font-face {
     font-family: 'SDMiSaeng'; /*글꼴*/
@@ -86,12 +71,13 @@ header>h1{
     text-decoration:none;
 }
 
-
 /* section */
 section{
     height: 100%;
     background-color: var(--color6);
 }
+
+/* index.html */
 
 .index_section {
     padding: 15px;
@@ -101,15 +87,14 @@ section{
     display: grid;
     grid-template-columns: 0fr 1fr;
 }
-#iframe_id{
-    width: 80%;
-    height: 500px;
-    color: white;
+
+.home-ul{
+    padding-left: 15px;
+    list-style:none;
 }
 
-.ifram_a:link {
-    background-color:white;
-}
+
+/* projectt.html */
 
 .project-ul{
     list-style:none;
@@ -120,6 +105,10 @@ section{
     margin-top: 20px;
 }
 
+.project-ul>ol>li{
+    margin-left: 15px;
+}
+
 .project-ul a
 {
     color:black;
@@ -127,14 +116,48 @@ section{
 }
 .project-ul a:hover
 {
-    color:#3366cc;
+    background-color:var(--color4);
     text-decoration:none;
 }
 
-.home-ul{
-    padding-left: 15px;
-    list-style:none;
+/* education.html */
+
+.iframe_span {
+    /* margin-right: 10px; */
+    background-color: var(--color1); 
+    padding: 15px;
+    align-items: center;
 }
+
+.iframe_span:hover {
+    background-color: var(--color2);
+}
+
+.iframe_span:visited {
+    background-color: var(--color2);
+}
+
+#iframe_id{
+    width: 80%;
+    height: 500px;
+    color: white;
+}
+
+.ifram_a:link {
+    background-color:white;
+}
+
+iframe{
+    background-color: white;
+}
+
+.iframe_contents {
+    padding-left: 35px;
+    margin-top: 35px;
+}
+
+
+/* experience.html */
 
 .exp-list{
     padding: 15px;
@@ -148,11 +171,6 @@ section{
 #exp-ul{
     list-style:none;
     padding-left: 25px;
-}
-
-.iframe_contents {
-    padding-left: 35px;
-    margin-top: 35px;
 }
 
 /* footer */
