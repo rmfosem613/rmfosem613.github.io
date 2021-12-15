@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>프론트엔드 개발자 지원서</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 10px;
+        }
+
+        hr {
+            width: 90%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            margin: 10px 0;
+        }
+
+        fieldset {
+            padding: 5px 20px;
+        }
+
+        ul {
+            padding: 15px;
+            margin-left: 15px;
+            list-style-type: disc;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>프론트엔드 개발자 지원서</h1>
+    <br>
+    <p><strong>HTML, CSS, JAVASCRIPT</strong>에 대한 기술적 이해와 많은 경험이 있는 분을 찾습니다.</p>
+    <hr>
+    <form>
+        <fieldset>
+            <legend>입사지원서</legend>
+            <div>
+                <h3>개인정보</h3>
+                <ul>
+                    <li>
+                        <label for="name">이름</label>
+                        <input type="text" name="name" id="name">
+                    </li>
+                    <li>
+                        <label for="phone">연락처</label>
+                        <input type="text" name="phone" id="phone">
+                    </li>
+                    <li>
+                        <label for="class">학과</label>
+                        <select name="class" id="class">
+                            <option value="engineering">컴퓨터공학전공</option>
+                            <option value="education">컴퓨터교육과</option>
+                            <option value="architecture">건출학과</option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3>지원분야</h3>
+                <ul>
+                    <li>
+                        <input type="radio" name="web" id="cate1">
+                        <label for="cate1">웹 퍼블리싱</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="web" id="cate2">
+                        <label for="cate2">웹 어플리케이션</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="web" id="cate3">
+                        <label for="cate3">웹 개발 지원</label>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3>지원 동기</h3>
+                <textarea name="motive" id="motive" cols="60" rows="10" placeholder="지원동기를 작성해주세요."></textarea>
+            </div>
+            <div>
+                <input type="submit" value="접수하기">
+                <input type="submit" value="다시작성">
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>
