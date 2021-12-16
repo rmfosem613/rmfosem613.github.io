@@ -9,7 +9,6 @@
     <title>포트폴리오</title>
 
     <style>
-        
         header {
             width: 100%;
             height: 200px;
@@ -42,74 +41,81 @@
     </style>
 </head>
 
-<body>
-    <div id="wrap" class="sdms-font">
-        <header style="background-color: #6d9886;">
-            <h1>포트폴리오</h1>
-        </header>
-        <div class="contents">
-            <aside style="background-color: #d9cab3;">
-                <img class="profile-image" src="../img/profile.jpg">
+<body onload="myFunction()">
+    <div id="loader"></div>
 
-                <ul class="side-list">
-                    <li><a href="../index.html">HOME</a></li>
-                    <li><a href="project.html">PROJECTS</a></li>
-                    <li><a href="education.html">EDUCATION</a></li>
-                    <li><a href="experience.html">EXPERIENCE</a></li>
-                </ul>
-            </aside>
+    <div id="wrap" class="animate-bottom">
+        <div class="sdms-font">
+            <header style="background-color: #6d9886;">
+                <h1>포트폴리오</h1>
+            </header>
+            <div class="contents">
+                <aside style="background-color: #d9cab3;">
+                    <img class="profile-image" src="../img/profile.jpg">
 
-            <section class="edu-iframe">
-                <div class="iframe_contents">
-                    <span class="iframe_span">
-                        <a class="iframe_a" href="./argument/span_box.html" id="iframe_id" target="iframe_name">span 과제</a>
-                    </span>
-                    <span class="iframe_span">
-                        <a class="iframe_a" href="./table.html" id="iframe_id" target="iframe_name">table 과제</a>
-                    </span>
-                    <span class="iframe_span">
-                        <a class="iframe_a" href="./form.html" id="iframe_id" target="iframe_name">form 과제</a>
-                    </span>
-                    
-                    
-                    <div id="iframe_form">
-                        <iframe src="./argument/span_box.html" id="iframe_id" name="iframe_name"></iframe>
+                    <ul class="side-list">
+                        <li><a href="../index.html">HOME</a></li>
+                        <li><a href="project.html">PROJECTS</a></li>
+                        <li><a href="education.html">EDUCATION</a></li>
+                        <li><a href="experience.html">EXPERIENCE</a></li>
+                    </ul>
+                </aside>
+
+                <section class="edu-iframe">
+                    <div class="iframe_contents">
+                        <span class="iframe_span">
+                            <a class="iframe_a" href="./argument/span_box.html" id="iframe_id" target="iframe_name">span
+                                과제</a>
+                        </span>
+                        <span class="iframe_span">
+                            <a class="iframe_a" href="./table.html" id="iframe_id" target="iframe_name">table 과제</a>
+                        </span>
+                        <span class="iframe_span">
+                            <a class="iframe_a" href="./form.html" id="iframe_id" target="iframe_name">form 과제</a>
+                        </span>
+
+
+                        <div id="iframe_form">
+                            <iframe src="./argument/span_box.html" id="iframe_id" name="iframe_name"></iframe>
+                        </div>
                     </div>
+                </section>
+            </div>
+            <footer class="site-footer">
+                <div class="container">
+                    <div class="wrapper">
+                        <div>
+                            <h6>About</h6>
+                            <p style="margin-bottom: 30px">
+                                기초웹개발론 중간고사 제출용 포트폴리오 사이트입니다.
+                                HTML 기본 문서 구조와 배웠던 내용을 응용해 포트폴리오 웹 사이트를 만들었습니다.
+                                사이드에는 다른 HTML 파일로 이동할 수 있는 네비게이션을 만들었습니다.
+                                전체적인 내용에 대한 설명은 메인 페이지에서 확인할 수 있습니다.
+                            </p>
+                        </div>
+
+                        <div>
+                            <h6>I am</h6>
+                            <ul class="footer-links" style="margin-bottom: 30px">
+                                <li><a href="https://github.com/rmfosem613">깃허브</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <hr>
                 </div>
-            </section>
-        </div>
-        <footer class="site-footer">
-            <div class="container">
-                <div class="wrapper">
+                <div class="container">
                     <div>
-                        <h6>About</h6>
-                        <p style="margin-bottom: 30px">
-                            기초웹개발론 중간고사 제출용 포트폴리오 사이트입니다.
-                            HTML 기본 문서 구조와 배웠던 내용을 응용해 포트폴리오 웹 사이트를 만들었습니다.
-                            사이드에는 다른 HTML 파일로 이동할 수 있는 네비게이션을 만들었습니다.
-                            전체적인 내용에 대한 설명은 메인 페이지에서 확인할 수 있습니다.
+                        <p class="made-text">Made by:
+                            <a href="https://github.com/rmfosem613">Mi-gyeong</a>.
                         </p>
                     </div>
-
-                    <div>
-                        <h6>I am</h6>
-                        <ul class="footer-links" style="margin-bottom: 30px">
-                            <li><a href="https://github.com/rmfosem613">깃허브</a></li>
-                        </ul>
-                    </div>
-
                 </div>
-                <hr>
-            </div>
-            <div class="container">
-                <div>
-                    <p class="made-text">Made by:
-                        <a href="https://github.com/rmfosem613">Mi-gyeong</a>.
-                    </p>
-                </div>
-            </div>
-        </footer>
+            </footer>
+        </div>
     </div>
+
+    <script src="../script/index.js"></script>
 
 </body>
 

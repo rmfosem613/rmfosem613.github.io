@@ -42,84 +42,89 @@
     </style>
 </head>
 
-<body>
-    <div id="wrap" class="sdms-font">
-        <header style="background-color: #6d9886;">
-            <h1>포트폴리오</h1>
-        </header>
-        <div class="contents">
-            <aside style="background-color: #d9cab3;">
-                <img class="profile-image" src="../img/profile.jpg">
+<body onload="myFunction()">
+    <div id="loader"></div>
 
-                <ul class="side-list">
-                    <li><a href="../index.html">HOME</a></li>
-                    <li><a href="project.html">PROJECTS</a></li>
-                    <li><a href="education.html">EDUCATION</a></li>
-                    <li><a href="experience.html">EXPERIENCE</a></li>
-                </ul>
-            </aside>
-            <section>
-                <div class="exp-list">
-                    <h4>수상</h4>
-                <ul id="exp-ul">
-                    <li>2019.06.25 [인공지능을 활용한 스마트팜 헤커톤] 우수상 수상</li>
-                    <li>2019.11.24. [‘스타트업 위크엔드’ 워크숍] 우수상 수상</li>
-                    <li>2020.6.12. [제1회 온라인SW경진대회] 우수상 수상</li>
-                    <li>2020.11.6 [글로벌 창업 경진대회] 최우수상 수상</li>
-                
-                </ul> 
-                <h4>교내외 프로그램 참여</h4>
-                <ul id="exp-ul">
-                    <li>(2019.04.05 ~ 2019.12.31) WISET 이공계 여대생 활동</li>
-                    <li>(2019.08.04 ~ 2019.08.25) 2019 월드프렌즈코리아 ICT 봉사단 활동</li>
-                    <li>(2019.10.24. ~ 2019.11.12) 제주 대정고등학교 SW 동아리 멘토링</li>
-                    <li>(2020.07.10. ~ 2020.11.20) 제주 오현고등학교 SW 동아리 멘토링</li>
-                    <li>(2020.09.08. ~ 2020.09.23) 제주 동광초등학교 6학년 멘토링</li>
-                    <li>2020년 글로벌 창업 프로그램 참여</li>
-                    <li>(2021.12.31. ~ 2022.02.26) Purdue University 해외교육 참여</li>
+    <div id="wrap" class="animate-bottom">
+        <div class="sdms-font">
+            <header style="background-color: #6d9886;">
+                <h1>포트폴리오</h1>
+            </header>
+            <div class="contents">
+                <aside style="background-color: #d9cab3;">
+                    <img class="profile-image" src="../img/profile.jpg">
 
-                </ul>
-                <h4>인턴십</h4>
-                <ul id="exp-ul"> 
-                    <li>(2020.01.28. ~ 2020.02.28) [주식회사 오로라 하우스] 소프트웨어개발 및 온라인 마케팅</li>
-                    <li>(2021.07.05~2021.08.13) [LGSI] Media Recommandation 프로그램 개발</li>
-                </ul>
-            </div>
-            </section>
-        </div>
-        <footer class="site-footer">
-            <div class="container">
-                <div class="wrapper">
-                    <div>
-                        <h6>About</h6>
-                        <p style="margin-bottom: 30px">
-                            기초웹개발론 중간고사 제출용 포트폴리오 사이트입니다.
-                            HTML 기본 문서 구조와 배웠던 내용을 응용해 포트폴리오 웹 사이트를 만들었습니다.
-                            사이드에는 다른 HTML 파일로 이동할 수 있는 네비게이션을 만들었습니다.
-                            전체적인 내용에 대한 설명은 메인 페이지에서 확인할 수 있습니다.
-                        </p>
-                    </div>
+                    <ul class="side-list">
+                        <li><a href="../index.html">HOME</a></li>
+                        <li><a href="project.html">PROJECTS</a></li>
+                        <li><a href="education.html">EDUCATION</a></li>
+                        <li><a href="experience.html">EXPERIENCE</a></li>
+                    </ul>
+                </aside>
+                <section>
+                    <div class="exp-list">
+                        <h4>수상</h4>
+                        <ul id="exp-ul">
+                            <li>2019.06.25 [인공지능을 활용한 스마트팜 헤커톤] 우수상 수상</li>
+                            <li>2019.11.24. [‘스타트업 위크엔드’ 워크숍] 우수상 수상</li>
+                            <li>2020.6.12. [제1회 온라인SW경진대회] 우수상 수상</li>
+                            <li>2020.11.6 [글로벌 창업 경진대회] 최우수상 수상</li>
 
-                    <div>
-                        <h6>I am</h6>
-                        <ul class="footer-links" style="margin-bottom: 30px">
-                            <li><a href="https://github.com/rmfosem613">깃허브</a></li>
+                        </ul>
+                        <h4>교내외 프로그램 참여</h4>
+                        <ul id="exp-ul">
+                            <li>(2019.04.05 ~ 2019.12.31) WISET 이공계 여대생 활동</li>
+                            <li>(2019.08.04 ~ 2019.08.25) 2019 월드프렌즈코리아 ICT 봉사단 활동</li>
+                            <li>(2019.10.24. ~ 2019.11.12) 제주 대정고등학교 SW 동아리 멘토링</li>
+                            <li>(2020.07.10. ~ 2020.11.20) 제주 오현고등학교 SW 동아리 멘토링</li>
+                            <li>(2020.09.08. ~ 2020.09.23) 제주 동광초등학교 6학년 멘토링</li>
+                            <li>2020년 글로벌 창업 프로그램 참여</li>
+                            <li>(2021.12.31. ~ 2022.02.26) Purdue University 해외교육 참여</li>
+
+                        </ul>
+                        <h4>인턴십</h4>
+                        <ul id="exp-ul">
+                            <li>(2020.01.28. ~ 2020.02.28) [주식회사 오로라 하우스] 소프트웨어개발 및 온라인 마케팅</li>
+                            <li>(2021.07.05~2021.08.13) [LGSI] Media Recommandation 프로그램 개발</li>
                         </ul>
                     </div>
+                </section>
+            </div>
+            <footer class="site-footer">
+                <div class="container">
+                    <div class="wrapper">
+                        <div>
+                            <h6>About</h6>
+                            <p style="margin-bottom: 30px">
+                                기초웹개발론 중간고사 제출용 포트폴리오 사이트입니다.
+                                HTML 기본 문서 구조와 배웠던 내용을 응용해 포트폴리오 웹 사이트를 만들었습니다.
+                                사이드에는 다른 HTML 파일로 이동할 수 있는 네비게이션을 만들었습니다.
+                                전체적인 내용에 대한 설명은 메인 페이지에서 확인할 수 있습니다.
+                            </p>
+                        </div>
 
+                        <div>
+                            <h6>I am</h6>
+                            <ul class="footer-links" style="margin-bottom: 30px">
+                                <li><a href="https://github.com/rmfosem613">깃허브</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <hr>
                 </div>
-                <hr>
-            </div>
-            <div class="container">
-                <div>
-                    <p class="made-text">Made by:
-                        <a href="https://github.com/rmfosem613">Mi-gyeong</a>.
-                    </p>
+                <div class="container">
+                    <div>
+                        <p class="made-text">Made by:
+                            <a href="https://github.com/rmfosem613">Mi-gyeong</a>.
+                        </p>
+                    </div>
                 </div>
-            </div>
-        </footer>
+            </footer>
+        </div>
     </div>
 
+    <script src="../script/index.js"></script>
 </body>
 
 </html>
