@@ -291,6 +291,15 @@ h4 {
     margin-top: 15px;
 }
 
+section>a {
+    color: black;
+    margin-left: 25px;
+}
+
+section>a:hover {
+    background-color: var(--color4);
+}
+
 
 @media all and (min-width: 640px) {
     header {
@@ -323,6 +332,7 @@ h4 {
     }
     footer {
         clear: left;
+        width: 100%;
     }
 
     .profile-image {
@@ -369,6 +379,7 @@ h4 {
     }
     footer {
         clear: left;
+        width: 100%;
     }
 
     .profile-image {
