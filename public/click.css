@@ -9,10 +9,10 @@
     --rotate: 0.5turn;
 }
 
-svg {
-    animation: fill 0.5s linear forwards 3.4s;
+#click_ani {
+    animation: click_fill 0.5s linear forwards 3.4s;
 }
-@keyframes fill {
+@keyframes click_fill {
     from {
         fill: transparent;
     }
@@ -20,10 +20,10 @@ svg {
         fill: var(--color1);
     }
 }
-svg path {
-    stroke: var(--color5);
-    stroke-width: 2;
-    animation: stroke 5s linear forwards;
+#click_ani path {
+    stroke: var(--color1);
+    stroke-width: 1;
+    animation: stroke 3s linear forwards;
 }
 @keyframes stroke {
     to {
@@ -31,7 +31,7 @@ svg path {
     }
 }
 
-svg path:nth-child(1) {
+#click_ani path:nth-child(1) {
     stroke-dasharray: 53px;
     stroke-dashoffset: 53px;
 }
