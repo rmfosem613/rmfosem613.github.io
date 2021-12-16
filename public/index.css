@@ -98,9 +98,13 @@ header>h1{
 
 /* side */
 .side-list{
-    padding-left:20px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
     list-style:none;
     font-weight: bold;
+    margin-top: 25px;
 }
 .side-list a
 {
@@ -298,7 +302,11 @@ h4 {
     }
     aside {
         float: left;
-        width: 250px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        align-items: center;
+        width: 350px;
         height: 530px;
     }
 
@@ -321,9 +329,8 @@ h4 {
         width: 150px;
         height: 150px;
         border-radius: 70%;
-        overflow: hidden;
         margin-top: 50px;
-        margin-left: 40px;
+        overflow: hidden;
     }
 }
 
