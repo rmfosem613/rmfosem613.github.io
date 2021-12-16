@@ -161,6 +161,17 @@ section{
     text-decoration:none;
 }
 
+.info_group {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.click_svg {
+    width: 30px; 
+    height: 30px;
+    margin-left: 15px;
+}
+
 /* education.html */
 
 .iframe_span {
@@ -267,6 +278,7 @@ iframe{
 
 h4 {
     margin-top: 25px;
+    margin-left: 15px;
 }
 
 #iframe_form {

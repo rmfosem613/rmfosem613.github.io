@@ -1,5 +1,5 @@
 @charset "uft-8";
-:root {
+ :root {
     --color1: #6d9886;
     --color2: #737373;
     --color3: #FFA07A;
@@ -7,7 +7,7 @@
     --color5: #d9cab3;
     --rotate: 0.5turn;
 }
-
+/*
 * {
     margin: 0;
     padding: 0;
@@ -58,7 +58,7 @@ body {
     50% {
     }
     75% {
-        /*stroke: var(--color1);*/
+        /*stroke: var(--color1);
         fill: var(--color1);
     }
     100% {
@@ -82,4 +82,64 @@ body {
         stroke: var(--color5);
         fill: var(--color1);
     }
-}
+} 
+*/
+
+/* Global Styles */
+
+html,body {
+    background-color:var(--color1);
+    height:100%;
+    overflow:hidden;
+    }
+    
+    
+    /* Heart Rate */
+    
+    .wrapper {
+    animation:heartbeat 1s linear infinite both;
+    display:table;
+    height:100%;
+    text-align:center;
+    width:100%;
+    }
+    
+    /* #heart {
+    display:table-cell;
+    vertical-align:middle;
+    } */
+    
+    
+    /* Heart Image */
+    
+    /* #heart svg {
+    background-color:var(--color3);
+    max-width:25%;
+    } */
+    
+    
+    /* Generated with Bounce.js. Edit at https://goo.gl/h05rSW */
+    
+    @keyframes heartbeat {
+        0% { 
+            transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); 
+
+            stroke: var(--color3);
+            fill: var(--color3);        
+        }
+        20% { 
+            transform:matrix3d(1.022,0,0,0,0,1.022,0,0,0,0,1,0,0,0,0,1); 
+            stroke: var(--color3);
+            fill: var(--color3);  
+        }
+        50% { 
+            transform:matrix3d(1.001,0,0,0,0,1.001,0,0,0,0,1,0,0,0,0,1); 
+            stroke: var(--color3);
+            fill: var(--color3);  
+        }
+        100% { 
+            transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1); 
+            stroke: var(--color3);
+            fill: var(--color3);  
+        }
+    }

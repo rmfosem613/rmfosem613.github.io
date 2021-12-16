@@ -52,47 +52,47 @@ svg path {
     }
 }
 svg path:nth-child(1) {
-    stroke-dasharray: 1030px;
-    stroke-dashoffset: 1030px;
+    stroke-dasharray: 856px;
+    stroke-dashoffset: 856px;
 }
 svg path:nth-child(2) {
-    stroke-dasharray: 829px;
-    stroke-dashoffset: 829px;
+    stroke-dasharray: 790px;
+    stroke-dashoffset: 790px;
     animation-delay: 0.3s;
 }
 svg path:nth-child(3) {
-    stroke-dasharray: 484px;
-    stroke-dashoffset: 484px;
+    stroke-dasharray: 126px;
+    stroke-dashoffset: 126px;
     animation-delay: 0.6s;
 }
 svg path:nth-child(4) {
-    stroke-dasharray: 608px;
-    stroke-dashoffset: 608px;
+    stroke-dasharray: 569px;
+    stroke-dashoffset: 569px;
     animation-delay: 0.9s;
 }
 svg path:nth-child(5) {
-    stroke-dasharray: 681px;
-    stroke-dashoffset: 681px;
+    stroke-dasharray: 687px;
+    stroke-dashoffset: 687px;
     animation-delay: 1.2s;
 }
 svg path:nth-child(6) {
-    stroke-dasharray: 829px;
-    stroke-dashoffset: 829px;
+    stroke-dasharray: 553px;
+    stroke-dashoffset: 553px;
     animation-delay: 1.5s;
 }
 svg path:nth-child(7) {
-    stroke-dasharray: 504px;
-    stroke-dashoffset: 504px;
+    stroke-dasharray: 454px;
+    stroke-dashoffset: 454px;
     animation-delay: 1.8s;
 }
 svg path:nth-child(8) {
-    stroke-dasharray: 472px;
-    stroke-dashoffset: 472px;
+    stroke-dasharray: 553px;
+    stroke-dashoffset: 553px;
     animation-delay: 2.1s;
 }
 svg path:nth-child(9) {
-    stroke-dasharray: 829px;
-    stroke-dashoffset: 829px;
+    stroke-dasharray: 336px;
+    stroke-dashoffset: 336px;
     animation-delay: 2.4s;
 }
 
